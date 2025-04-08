@@ -1,0 +1,18 @@
+.header {
+    width: 1440px;
+    height: 40px;
+    background-color: rgb(3, 35, 64, 1);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.search-input {
+    width: 638px;
+    height: 48px;
+    top: 48px;
+    left: 13px;
+    border: 1px solid rgb(203, 203, 203, 1);
+    border-radius: 16px;
+    background-color: rgb(249, 249, 249);
+}

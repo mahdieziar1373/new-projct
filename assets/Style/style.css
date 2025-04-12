@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: sans-serif;
+    direction: rtl;
+    padding: 0px 20px;}
+
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+    }
+
+
+    .header {
+        width: 100%;
+        height: 40px;
+        background-color: rgb(3, 35, 64, 1);
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .header-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: white;
+        position: relative;
+    }
+
+    .right-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 150px;
+        height: 32px;
+    }
+
+    .logo-text {
+        width: 150.49px;
+        height: 18px;
+        line-height: 100%;
+        font-weight: 700;
+        font-size: 12px;
+        color: rgba(134, 134, 134, 1);
+        margin: 8px;
+    }
+
+    .center-section {
+        margin: 0 20px;
+
+    }
+
+    .main-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+        background-color: #F9F9F9;
+        border-radius: 16px;
+
+    }
+
+    .right-menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .left-menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .search-container {
+        position: relative;
+        width: 100%;
+    }
+
+    .search-box {
+        width: 100%;
+        padding: 10px 40px 10px 10px;
+        /* Add padding to make space for the icon */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .search-icon {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        /* Adjust for RTL layout */
+        transform: translateY(-50%);
+        color: #888;
+        pointer-events: none;
+        /* Prevent interaction with the icon */
+    }
+
+    .search-box {
+        width: 638px;
+        height: 48px;
+        top: 48px;
+        left: 13px;
+        border: 1px solid rgb(203, 203, 203, 1);
+        border-radius: 16px;
+        background-color: rgb(249, 249, 249);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .section-one {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .search-icon {
+        width: 25px;
+        height: 25px;
+
+        transform: translateY(-50%);
+        color: rgba(250, 84, 28, 1);
+    }
+
+    .left-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .login-btn {
+        width: 142px;
+        height: 48px;
+        top: 40px;
+        left: 172px;
+        display: flex;
+        align-items: center;
+        padding: 8px 15px;
+        background-color: white;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        margin: 16px;
+        box-shadow: 0px 0px 20px 2px #00000014;
+
+        opacity: 0px;
+    }
+    .menu-item{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        width: fit-content;
+    }
+    .menu-icon{
+        display: flex;
+        gap: 2px;
+        align-items: center;
+    }
+    .menu-icon img { margin-top: 5px;
+
+    }
+  
+    .sell-icon {
+        width: 24px;
+        height: 24px;
+        color: white;
+    }
+
+    .menu-part {
+        display: flex;
+        width: 1224px;
+        height: 64px;
+        top: 134px;
+        left: 108px;
+        border-radius: 16px;
+        background-color: rgba(249, 249, 249, 1);
+        gap: 40px;
+        list-style: none;
+    }
+
+    .rigt-part {
+        position: fixed;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    li {
+        text-decoration: none;
+    }
+
+    .hero {
+        background-color: #fdfdfd;
+        padding: 60px 0;
+        direction: rtl;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .hero-content {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .hero-text {
+        max-width: 500px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+        color: #333;
+        margin-bottom: 10px;
+    }
+
+    .hero-text p {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    .hero-text span {
+        color: #e94e1b;
+        font-weight: bold;
+    }
+
+    .btn {
+        background-color:#032340;
+        display: flex;
+        align-items: center;
+        color: white;
+        width: fit-content;
+        gap: 5px;
+        padding: 12px 24px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero-image-group {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .hero-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .icon-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .icon-item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .icon-text h4 {
+        margin: 0;
+        font-size: 1rem;
+        color: #1e3a8a;
+    }
+
+    .icon-text p {
+        margin: 2px 0 0 0;
+        font-size: 0.9rem;
+        color: #666;
+    }
+
+
+
+    /* 
+img {
+    background-color: rgba(235, 245, 255, 1);
+    border-radius: 16px;
+    padding: 20px;
+    gap: 10px;
+}
+
+p {
+    color: rgba(96, 96, 96, 1);
+}
+
+text-one {
+    color: rgba(3, 35, 64, 1);
+}
+
+text-tow {
+    color: rgba(250, 84, 28, 1);
+}
+
+.click {
+    width: 207px;
+    height: 48px;
+    top: 8px;
+    right: 24px;
+    bottom: 8px;
+    left: 24px;
+    gap: 8px;
+    border-radius: 5px;
+    background-color: rgba(3, 35, 64, 1);
+    color: white;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px;
+    direction: rtl;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.image-item {}
+
+.image-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.image-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.image-caption {
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+} */
+
+    /* @media (max-width: 768px) {
+    .image-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-item {
+        max-width: 350px;
+    }
+} */
+
+    /* img {
+
+    background-color: rgba(235, 245, 255, 1);
+    border-radius: 16px;
+    padding: 20px;
+    gap: 10px;
+}
+
+.image {
+    width: 200px;
+    margin: auto;
+    object-fit: cover;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-item {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background: #fff;
+}
+
+.picture {
+    background-color: rgb(211, 225, 247);
+    border: solid 2px rgb(78, 78, 247);
+    display: inline-block;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.picture-frame {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+}
+
+.picture-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+} */

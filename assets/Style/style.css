@@ -229,30 +229,6 @@ li {
     flex-wrap: wrap;
 }
 
-.part-text h1 {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.part-text p {
-    font-size: 1.2rem;
-    color: #555;
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: #032340;
-    display: flex;
-    align-items: center;
-    color: white;
-    width: fit-content;
-    gap: 5px;
-    padding: 12px 24px;
-    border-radius: 8px;
-    text-decoration: none;
-}
-
 .part-text span {
     color: #e94e1b;
     font-weight: bold;
@@ -340,6 +316,20 @@ li {
     background-color: none;
 }
 
+.product-card img {
+    border-radius: 8px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.product-card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 .color-text {
     font-size: 22px;
     font-weight: bold;
@@ -367,6 +357,7 @@ li {
 }
 
 .banner-text {
+    top: 30px;
     position: relative;
     color: #1e1e1e;
     text-align: right;
@@ -402,7 +393,7 @@ li {
 
 .section-title {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin: 40px;
     color: #333;
     text-align: center;
 }
@@ -422,6 +413,7 @@ li {
     border-radius: 10px;
     padding: 15px;
     text-align: center;
+
 }
 
 .product-card-two-text {
@@ -437,6 +429,8 @@ li {
 
 .product-title {
     background-color: white;
+    text-align: right;
+    padding: 10px;
 }
 
 .new {
@@ -469,116 +463,131 @@ li {
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn {
+    background-color: #032340;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: fit-content;
+    gap: 5px;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+}
 
 .btn-card img {
     width: 16px;
     height: 16px;
 }
 
+.part-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.part-text p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
 
 
-.banner-text h2 {
+
+.banner-text-two {
+    top: 30px;
+    position: relative;
+    color: #1e1e1e;
+    text-align: right;
+    padding: 24px;
+    z-index: 2;
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/baner2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 32px;
+}
+
+.banner-text-two h2 {
     font-size: 24px;
     font-weight: bold;
     color: #2e2e2e;
     left: 100px;
     padding: 24px;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-.product-card img {
-    border-radius: 8px;
-    width: 250px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-
-
-
-.product-card h3 {
+.banner-text-two p {
     font-size: 16px;
-    margin-bottom: 10px;
+    color: #555;
+    padding: 24px;
 }
 
+.btn-banner {
+    display: inline-block;
+    background-color: #002856;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
 
+.special-discounts-two {
+    padding: 60px 20px,
+}
 
+.section-title-three {
+    margin: 40px;
+    color: #01070D;
+    text-align: center;
+}
+.product-title-three{
+    background-color: white;
+    text-align: right;
+    padding: 10px;
+}
 
+.container-product-two {
+    display: flex;
+    width: 50%;
+    border-radius: 16px;
+    top: 24px;
+    left: 150px;
+    gap: 24px;
+    align-items: center;
+}
 
+.product-card-three {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: #F4FAFF;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
 
+.text-one {
+    font-size: 16px;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 8px;
+    text-align: right;
+}
 
+.text-tow {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+    margin-bottom: 8px;
+    text-align: right;
+}
+
+.text-three {
+    font-size: 12px;
+    color: #404040;
+    margin-bottom: 8px;
+    text-align: right;
+}
